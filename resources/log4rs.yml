@@ -27,7 +27,7 @@ appenders:
         kind: fixed_window
         base: 1
         count: 3
-        pattern: "logs/log{}.log"
+        pattern: "logs/roller{}.log"
         
 root:
   level: info
